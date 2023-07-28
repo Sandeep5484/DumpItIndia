@@ -5,8 +5,8 @@ import "../DashboardPage.css";
 const DashboardPage = () => {
     return (
         <div className="aboutPage flex flex-col sm:flex-row">
-            <img src={aboutimg} alt="aboutimg" className="w-full h-auto  " />
-            <div className="about ">
+            <img src={aboutimg} alt="aboutimg" className="w-full h-96  " />
+            <div className="about px-8">
                 <h1>About us</h1>
                 <p>
                     Dump it India is a cutting-edge scrap management software
